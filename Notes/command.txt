@@ -19,4 +19,9 @@ cargo check               -----This command quickly checks your code to make sur
 
 
 cargo build --release     ------When your project is finally ready for release, you can use cargo build --release to compile it with optimizations. 
-                                This command will create an executable in target/release instead of target/debug.
+                                This command will create an executable in target/release instead of target/debug
+            
+
+Cargo.lock :              ------your project will remain at 0.8.5 until you explicitly upgrade
+
+cargo update              ------which will ignore the Cargo.lock file and figure out all the latest versions that fit your specifications in Cargo.toml 
