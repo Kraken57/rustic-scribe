@@ -1,0 +1,22 @@
+#rustc                   -----good for easy and concise codes 
+rustc main.rs 
+./main
+
+
+#cargo
+
+cargo new dir_name        -------creates a directory with src and a .toml file 
+cd dir_name
+
+cargo build               ----it compiles the code and make a folder of "target" which contains exe file
+target/debug/dir_name     ----this is the exe file
+
+
+cargo run                 -----complies and run at the same time ---easy
+
+
+cargo check               -----This command quickly checks your code to make sure it compiles but doesn’t produce an executable   
+
+
+cargo build --release     ------When your project is finally ready for release, you can use cargo build --release to compile it with optimizations. 
+                                This command will create an executable in target/release instead of target/debug.
