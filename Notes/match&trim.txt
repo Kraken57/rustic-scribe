@@ -1,0 +1,15 @@
+let guess: u32 = guess.trim().parse().expect("Please type a number!");
+
+match              -----A match expression is made up of arms. An arm consists of a pattern to match against, 
+                        and the code that should be run if the value given to match fits that arm’s pattern
+
+trim               -----The trim method on a String instance will eliminate any whitespace at the beginning and end,
+                        The trim method eliminates \n or \r\n, resulting in just 5.
+                
+parse              -----The parse method on strings converts a string to another type
+
+                        let guess: u32. The colon (:) after guess tells Rust we’ll annotate the variable’s type
+
+                        parse will return same as Result the err and ok variant so we use .except with parse too
+
+
