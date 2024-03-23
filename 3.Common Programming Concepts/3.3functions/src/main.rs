@@ -1,7 +1,7 @@
-fn main() {
-    hello(5);
-}
-
-fn hello(h: u32) {
-    println!("{h}");
+fn main(){
+    let y={
+        let x= 3;
+        x+1
+    };
+    println!("The value of y is {y}")
 }
